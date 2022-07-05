@@ -54,6 +54,17 @@ public struct S2LatLngRect: S2Region, Equatable {
 		lng = S1Interval(lo: lo.lng.radians, hi: hi.lng.radians)
 		// assert (isValid());
 	}
+
+  /**
+   Construct the minimal bounding rectangle containing the two given
+   normalized points. Note that it is different than the
+   S2LatLngRect(lo, hi) constructor, where the first point is always
+   used as the lower-left corner of the resulting rectangle.
+  */
+  public init(p1: S2LatLng, p2: S2LatLng) {
+    self.lat = R1Interval(p1: p1.lat.radians, p2: p2.lat.radians)
+    self.lng = S1Interval(p1: p1.lng.radians, p2: p2.lng.radians)
+  }
 	
 	/// Construct a rectangle from latitude and longitude intervals.
 	public init(lat: R1Interval, lng: S1Interval) {

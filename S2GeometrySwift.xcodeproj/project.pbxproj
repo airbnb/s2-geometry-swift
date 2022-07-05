@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEC1CFEF2874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC1CFEE2874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift */; };
+		AEC1CFF02874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC1CFEE2874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift */; };
+		AEC1CFF12874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC1CFEE2874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift */; };
+		AEC1CFF22874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC1CFEE2874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift */; };
+		AEC1CFF42874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC1CFF32874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift */; };
+		AEC1CFF52874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC1CFF32874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift */; };
+		AEC1CFF62874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC1CFF32874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift */; };
 		D4A4C2D621EAECD4008C23BF /* S2CellIdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A4C2D521EAECD4008C23BF /* S2CellIdTests.swift */; };
 		D4A4C2D721EAECD4008C23BF /* S2CellIdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A4C2D521EAECD4008C23BF /* S2CellIdTests.swift */; };
 		D4A4C2D821EAECD4008C23BF /* S2CellIdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A4C2D521EAECD4008C23BF /* S2CellIdTests.swift */; };
@@ -135,6 +142,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AEC1CFEE2874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2SimpleRegionCoverer.swift; sourceTree = "<group>"; };
+		AEC1CFF32874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = S2SimpleRegionCovererTests.swift; path = Tests/S2SimpleRegionCovererTests.swift; sourceTree = "<group>"; };
 		D4A4C2D521EAECD4008C23BF /* S2CellIdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = S2CellIdTests.swift; path = Tests/S2CellIdTests.swift; sourceTree = "<group>"; };
 		D4A4C2D921EAECF1008C23BF /* GeometryTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeometryTestCase.swift; path = Tests/GeometryTestCase.swift; sourceTree = "<group>"; };
 		D4D99F6321E84107007033DC /* S2GeometrySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = S2GeometrySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,6 +270,7 @@
 			children = (
 				D4A4C2D921EAECF1008C23BF /* GeometryTestCase.swift */,
 				D4A4C2D521EAECD4008C23BF /* S2CellIdTests.swift */,
+				AEC1CFF32874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -325,6 +335,7 @@
 				OBJ_29 /* S2Projections.swift */,
 				OBJ_30 /* S2Region.swift */,
 				OBJ_31 /* S2RegionCoverer.swift */,
+				AEC1CFEE2874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -534,6 +545,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = OBJ_5;
@@ -616,6 +628,7 @@
 				D4D99FEC21E8C262007033DC /* S2.swift in Sources */,
 				D4D99FED21E8C262007033DC /* S2AreaCentroid.swift in Sources */,
 				D4D99FEE21E8C262007033DC /* S2Cap.swift in Sources */,
+				AEC1CFEF2874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift in Sources */,
 				D4D99FEF21E8C262007033DC /* S2Cell.swift in Sources */,
 				D4D99FF021E8C262007033DC /* S2CellId.swift in Sources */,
 				D4D99FF121E8C262007033DC /* S2CellUnion.swift in Sources */,
@@ -640,6 +653,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4A4C2D621EAECD4008C23BF /* S2CellIdTests.swift in Sources */,
+				AEC1CFF42874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift in Sources */,
 				D4A4C2DA21EAECF1008C23BF /* GeometryTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -655,6 +669,7 @@
 				D4D9A03121E8E071007033DC /* S2.swift in Sources */,
 				D4D9A03221E8E071007033DC /* S2AreaCentroid.swift in Sources */,
 				D4D9A03321E8E071007033DC /* S2Cap.swift in Sources */,
+				AEC1CFF02874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift in Sources */,
 				D4D9A03421E8E071007033DC /* S2Cell.swift in Sources */,
 				D4D9A03521E8E071007033DC /* S2CellId.swift in Sources */,
 				D4D9A03621E8E071007033DC /* S2CellUnion.swift in Sources */,
@@ -679,6 +694,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4A4C2D721EAECD4008C23BF /* S2CellIdTests.swift in Sources */,
+				AEC1CFF52874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift in Sources */,
 				D4A4C2DB21EAECF1008C23BF /* GeometryTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -694,6 +710,7 @@
 				D4D9A00321E8D35D007033DC /* S2.swift in Sources */,
 				D4D9A00421E8D35D007033DC /* S2AreaCentroid.swift in Sources */,
 				D4D9A00521E8D35D007033DC /* S2Cap.swift in Sources */,
+				AEC1CFF12874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift in Sources */,
 				D4D9A00621E8D35D007033DC /* S2Cell.swift in Sources */,
 				D4D9A00721E8D35D007033DC /* S2CellId.swift in Sources */,
 				D4D9A00821E8D35D007033DC /* S2CellUnion.swift in Sources */,
@@ -718,6 +735,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4A4C2D821EAECD4008C23BF /* S2CellIdTests.swift in Sources */,
+				AEC1CFF62874ACA200B6B7B6 /* S2SimpleRegionCovererTests.swift in Sources */,
 				D4A4C2DC21EAECF1008C23BF /* GeometryTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -733,6 +751,7 @@
 				D4D9A01A21E8E066007033DC /* S2.swift in Sources */,
 				D4D9A01B21E8E066007033DC /* S2AreaCentroid.swift in Sources */,
 				D4D9A01C21E8E066007033DC /* S2Cap.swift in Sources */,
+				AEC1CFF22874ABE200B6B7B6 /* S2SimpleRegionCoverer.swift in Sources */,
 				D4D9A01D21E8E066007033DC /* S2Cell.swift in Sources */,
 				D4D9A01E21E8E066007033DC /* S2CellId.swift in Sources */,
 				D4D9A01F21E8E066007033DC /* S2CellUnion.swift in Sources */,

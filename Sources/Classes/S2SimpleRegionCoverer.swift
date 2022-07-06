@@ -18,7 +18,7 @@ public class S2SimpleRegionCoverer {
    region, returns a set of cells at the given level that cover the region.
    The output cells are returned in arbitrary order.
    */
-  static func getSimpleCovering(region: S2Region, level: Int) -> [S2CellId] {
+  public static func getSimpleCovering(region: S2Region, level: Int) -> [S2CellId] {
     let startingCell = S2CellId(latlng: region.rectBound.center).parent(level: level)
     var result: [S2CellId] = []
     var all: Set<S2CellId> = [startingCell]

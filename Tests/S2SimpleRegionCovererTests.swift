@@ -6,7 +6,7 @@
 //  Copyright © 2022 jacob_rice. MIT License.
 //
 
-@testable import S2GeometrySwift
+import S2GeometrySwift
 import XCTest
 
 class S2SimpleRegionCovererTests: XCTestCase {
